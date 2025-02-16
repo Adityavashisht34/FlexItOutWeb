@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <div class="exercise-selector">
+            <button id="pushups-btn">Pushups</button>
+            <button id="squats-btn">Squats</button>
+            <button id="curls-btn">Bicep Curls</button>
+        </div>
+        <div class="camera-feed">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas" style="display: none;"></canvas>
+        </div>
+        <div class="stats">
+            <p>Reps: <span id="rep-count">0</span></p>
+            <p>Status: <span id="status">Select an exercise to begin</span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

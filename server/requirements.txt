@@ -1,0 +1,5 @@
+Flask
+flask-limiter
+opencv-python
+numpy
+mediapipe
